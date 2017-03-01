@@ -37,15 +37,18 @@
       <section id="main_content" class="inner">
         {{ content }}
       </section>
-       <nav>
-      <ul>
-        {% for page in site.pages %}
-          <li>
-            <a href="{{ page.url }}">{{ page.title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
-    </nav>
+      <section>
+        <nav>
+          <h3>Other pages</h3>
+        <ul>
+          {% for page in site.pages %}
+            <li>
+              <a href="{{ page.url }}">{{ page.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+      </section>
     </div>
 
     <!-- FOOTER  -->
