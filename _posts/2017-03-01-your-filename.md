@@ -1,8 +1,14 @@
 ---
 layout: post
 title: First commit
+published: true
 ---
 
-## First commit
+--
+layout: post
+
+
+
+
 
 This is a test first post to check how GitHub pages work. Nothing interesting here.
