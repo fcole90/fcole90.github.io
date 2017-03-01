@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Home
-description: Minimal tutorial on making a simple website with GitHub Pages
+description: Home page
 ---
 
-Bob2
+## List of the recent posts
 
 <ul>
   {% for post in site.posts %}
