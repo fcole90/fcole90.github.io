@@ -1,8 +1,9 @@
 ---
 layout: page
-title: fcole90
+title: simple site
+tagline: Easy websites with GitHub Pages
+description: Minimal tutorial on making a simple website with GitHub Pages
 ---
-{% include JB/setup %}
 
 <ul class="posts">
   {% for post in site.posts %}
