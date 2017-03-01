@@ -4,3 +4,4 @@ description: Personal profile website
 gems:
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-mentions
