@@ -1,6 +1,7 @@
 theme: jekyll-theme-slate
 title: fcole90
 description: Personal profile website
+google_analytics: UA-92887808-1
 gems:
   - jekyll-sitemap
   - jekyll-feed
