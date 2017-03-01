@@ -4,7 +4,7 @@ title: Home
 description: Minimal tutorial on making a simple website with GitHub Pages
 ---
 
-Bob
+Bob2
 
 <ul>
   {% for post in site.posts %}
