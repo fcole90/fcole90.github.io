@@ -37,16 +37,16 @@
       <section id="main_content" class="inner">
         {{ content }}
       </section>
-    </div>
-    <nav>
+       <nav>
       <ul>
-      {% for page in site.pages %}
-        <li>
-          <a href="{{ page.url }}">{{ page.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
+        {% for page in site.pages %}
+          <li>
+            <a href="{{ page.url }}">{{ page.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
     </nav>
+    </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
