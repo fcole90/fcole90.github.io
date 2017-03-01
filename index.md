@@ -4,6 +4,8 @@ title: Home
 description: Home page
 ---
 
+This is a simple static website to collect some resources, informations and ideas.
+
 ## List of the recent posts
 
 <ul>
