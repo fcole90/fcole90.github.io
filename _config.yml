@@ -5,3 +5,8 @@ gems:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-mentions
+author :
+  name : Fabio Colella
+  email : fcole90@gmail.com
+  github : fcole90
+  twitter : fcole1990
