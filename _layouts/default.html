@@ -45,14 +45,23 @@
       <section id="main_content" class="inner">
         {{ content }}
         <nav>
+          <h3>Latest posts</h3>
+          <ul>
+            {% for post in site.posts %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+          
           <h3>Other pages</h3>
-        <ul>
-          {% for page in site.html_pages %}
+          <ul>
+            {% for page in site.html_pages %}
             <li>
               <a href="{{ page.url }}">{{ page.title }}</a>
             </li>
-          {% endfor %}
-        </ul>
+            {% endfor %}
+          </ul>
       </nav>
       </section>
     </div>
