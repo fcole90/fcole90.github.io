@@ -1,11 +1,8 @@
 ---
 layout: default
-title: All Posts
-description: Lists all posts
+title: Blog posts
+description: This page contains every blog post.
 ---
-
-## List of all the posts
-
 <ul>
             {% for post in site.posts %}
             <li>
