@@ -8,11 +8,11 @@
     <meta name="description" content="{{ site.title | default: site.github.repository_name }} : {{ site.description | default: site.github.project_tagline }}">
     
     <!-- Chrome, Firefox OS and Opera -->
-    <meta name="theme-color" content="#003056">
+    <meta name="theme-color" content="{{ site.theme-color }}">
     <!-- Windows Phone -->
-    <meta name="msapplication-navbutton-color" content="#003056">
+    <meta name="msapplication-navbutton-color" content="{{ site.theme-color }}">
     <!-- iOS Safari -->
-    <meta name="apple-mobile-web-app-status-bar-style" content="#01579B">
+    <meta name="apple-mobile-web-app-status-bar-style" content="{{ site.theme-color }}">
     
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
