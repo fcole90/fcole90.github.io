@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Blog posts
 description: This page contains every blog post.
 ---
