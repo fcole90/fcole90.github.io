@@ -31,12 +31,16 @@
           <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
 
           <a href="{{ site.url }}"><h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1></a>
+          <!--
           <a href="{{ site.url }}"><h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2></a>
+          -->
           
           <!-- Mini menu -->
-          <h4>
-            <a href="{{ site.url }}">Home</a>
-            <a href="/useful_resources.html">Resources</a>
+          <h4 class="header-menu">
+            <a href="{{ site.url }}">Home</a>  
+            <a href="/useful_resources.html">Resources</a>  
+            <a href="/all_posts.html">All posts</a>  
+            <a href="/about.html">About</a>  
           </h4>
           
           {% if site.show_downloads %}
