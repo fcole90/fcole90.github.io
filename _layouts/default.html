@@ -7,6 +7,13 @@
     <meta name="viewport" content="width=device-width,maximum-scale=2">
     <meta name="description" content="{{ site.title | default: site.github.repository_name }} : {{ site.description | default: site.github.project_tagline }}">
     
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#01579B">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#01579B">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#01579B">
+    
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% feed_meta %}
@@ -56,9 +63,11 @@
         {% if site.github.is_project_page %}
         <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
-        <p><a href="https://twitter.com/fcole1990" class="twitter-follow-button" data-show-count="false">Follow @fcole1990</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <p><a href="https://github.com/fcole90">@fcole90</a>  on GitHub</p>
+        <p>
+          <a href="https://twitter.com/fcole1990">@fcole1990</a>  on Twitter
+          <a href="https://twitter.com/fcole1990" class="twitter-follow-button" data-show-count="false">Follow @fcole1990</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
         </p>
-        <p><a href="https://github.com/fcole90">fcole90 on GitHub</a></p>
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
