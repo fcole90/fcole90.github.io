@@ -10,6 +10,6 @@ published: true
 This article explains in a clear and concise way how to understand and visualise probabilities
 and other information theory data. It is also very useful to understand the cross-entropy function.
 
-## [Reinventing explanation](http://michaelnielsen.org/reinventing_explanation/)
+### [Reinventing explanations](http://michaelnielsen.org/reinventing_explanation/)
 
 An approach on how to think about science, including an example application on the Simpson's paradox.
