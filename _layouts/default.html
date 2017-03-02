@@ -71,8 +71,10 @@
           </script>
           <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
         {% endif %}
+        
+        <!-- Navigation menu -->        
         <nav>
-          <h3>Latest posts</h3>
+          <h5>Latest posts</h5>
           <ul>
             {% for post in site.posts %}
             <li>
@@ -81,7 +83,7 @@
             {% endfor %}
           </ul>
           
-          <h3>Other pages</h3>
+          <h5>Other pages</h5>
           <ul>
             {% for page in site.html_pages %}
             <li>
