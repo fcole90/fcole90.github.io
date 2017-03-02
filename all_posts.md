@@ -10,6 +10,7 @@ description: Lists all posts
             {% for post in site.posts %}
             <li>
               <a href="{{ post.url }}">{{ post.title }}
+              <p> {{ post.excerpt }} </p>
               <p class="post-publishing-note">{{ post.date | date: "%d/%m/%Y" }}</p></a>
             </li>
             {% endfor %}
