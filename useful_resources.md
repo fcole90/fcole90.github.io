@@ -13,3 +13,7 @@ and other information theory data. It is also very useful to understand the cros
 ### [Reinventing explanations](http://michaelnielsen.org/reinventing_explanation/)
 
 An approach on how to think about science, including an example application on the Simpson's paradox.
+
+### [Deep Learning Book](http://www.deeplearningbook.org) 
+
+*Verbatim:* The Deep Learning textbook is a resource intended to help students and practitioners enter the field of machine learning in general and deep learning in particular. The online version of the book is now complete and will remain available online for free.
