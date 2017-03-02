@@ -1,11 +1,15 @@
 theme: jekyll-theme-slate
+theme-color: '#0b5189'
+
 title: fcole90
 description: Personal profile website
-google_analytics: UA-92887808-1
+google_analytics: 'UA-92887808-1'
+
 gems:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-mentions
+ 
 author:
   name: Fabio Colella
   email: fcole90@gmail.com
