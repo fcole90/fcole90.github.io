@@ -1,7 +1,6 @@
 ---
-layout: default
-title: Home
-description: Home page
+layout: page
+title: About
+description: 
 ---
-
-Sorry, nothing to see here..
+Sorry, nothing to see here yet.
