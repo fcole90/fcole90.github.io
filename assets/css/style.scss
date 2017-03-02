@@ -10,7 +10,16 @@ Put your custom CSS below this line, do not edit anything before.
   display: inline;
   width: 1.5em;
   height: 1.5em;
-  border-width: 2px;
+  border: None;
+  margin: 0.5em;
+}
+
+.no-box-shadow{
+  box-shadow: None;
+  -webkit-box-shadow: None;
+  -moz-box-shadow: None;
+  -o-box-shadow: None;
+  -ms-box-shadow: None;
 }
 
 .post-publishing-note{
