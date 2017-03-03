@@ -1,6 +1,11 @@
 ---
 layout: page
 title: About
-description: 
+description: null
+published: true
 ---
-Sorry, nothing to see here yet.
+This static website is hosted trough GitHub pages and uses the following:
+
+- Jekyll, to generate the static website itself;
+- MathJax, to display math formulas;
+- Disqus, to allow commenting. 
