@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 ## The computer who dreams of becoming a real boy
