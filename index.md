@@ -3,4 +3,4 @@ layout: page
 title: Welcome
 description: This is a simple static website to collect some resources, informations and ideas.
 ---
-I hope you may find it useful or at least interesting.
+<a class="twitter-timeline" href="https://twitter.com/fcole1990?ref_src=twsrc%5Etfw">Tweets by fcole1990</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
