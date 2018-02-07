@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blog posts
-description: Each and every post ever published
+description: List of blog posts in reversed chronological order
 ---
 <ul>
             {% for post in site.posts %}
