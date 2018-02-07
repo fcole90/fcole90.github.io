@@ -8,7 +8,7 @@ The neurons are the cells responsible for the transmission of the signal through
 - _Real neural networks and Artificial Neural Networks_
 - _The abilities and the limits of the current Artificial Neural Networks models_
 
-![AI-movie.jpg]({{site.url}}{{site.baseurl}}/_posts/AI-movie.jpg)
+![AI-movie.jpg]({{site.baseurl}}/images/AI-movie.jpg)
 *A scene from the movie A.I. Artificial Intelligence (2001) - © 2001 - Warner Brothers and Dreamworks LLC - All Rights Reserved*
 
 
