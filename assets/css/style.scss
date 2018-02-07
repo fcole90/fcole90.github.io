@@ -16,8 +16,8 @@ Put your custom CSS below this line, do not edit anything before.
   margin-right: 0.1em;
 }
 
-article{
-  background-color: #F7F9F9;
+#main_content{
+  background-color: #F0F3F4;
 }
 
 article img{
@@ -29,7 +29,7 @@ article img{
 img + em { 
   display: block; 
   text-align: center;
-  background-color: #AEB6BF;
+  background-color: #F0F3F4;
 }
 
 .no-box-shadow{
