@@ -8,7 +8,7 @@ comments: true
 {{ content }}
 </article>
 {% if page.categories %}
-  {% if page.categories | size > 0 %}
+  {% if page.categories.size > 0 %}
 <p>{{ page.categories | size }}</p>
 <p class="post-categories">Categories: {{ page.categories | join: ', ' }}</p>
   {% endif %}
