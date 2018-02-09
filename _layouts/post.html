@@ -9,8 +9,9 @@ comments: true
 </article>
 {% if page.categories %}
   {% if page.categories.size > 0 %}
-<p>{{ page.categories | size }}</p>
-<p class="post-categories">Categories: {{ page.categories | join: ', ' }}</p>
+    <p class="post-categories">Categories: {{ page.categories | join: ', ' }}</p>
+  {% else %}
+ <p class="post-categories">Uncategorised</p>
   {% endif %}
 {% endif %}
 <p class="post-publishing-note">Published on {{ page.date | date: "%d/%m/%Y" }}</p>
