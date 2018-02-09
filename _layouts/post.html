@@ -7,7 +7,9 @@ comments: true
 <article>
 {{ content }}
 </article>
-{% if page.categories and page.categories | size > 0 %}
+{% if page.categories %}
+  {% if page.categories | size > 0 %}
 <p class="post-categories">Categories: {{ page.categories | join: ', ' }}</p>
+  {% endif %}
 {% endif %}
 <p class="post-publishing-note">Published on {{ page.date | date: "%d/%m/%Y" }}</p>
