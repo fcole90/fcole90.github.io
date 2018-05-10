@@ -71,7 +71,10 @@ img + em {
   background-color: #006cb4;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 0.8;
-  padding: 4vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
 }
 
 .no-box-shadow{
