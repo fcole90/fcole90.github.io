@@ -29,9 +29,9 @@ body{
 
 .header-menu *{
   color: #F0F3F4;
-  margin-right: 5vw;
+  margin-right: 1vw;
   font-family: "Source Code Pro", "Ubuntu Mono", "Lucida Console", Monaco, monospace;
-  text-shadow: 0px 0px 1em #006cb4;
+  text-shadow: 0px 0px 3em #006cb4;
 }
 
 
