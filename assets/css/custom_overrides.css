@@ -2,6 +2,7 @@
 
 body{
   font-family: nimbus-sans, Helvetica, Arial, sans-serif;
+  font-size: 100%;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -37,11 +38,14 @@ h1, h2, h3, h4, h5, h6{
   text-shadow: 0px 0px 3em #0398fb;
 }
 
-
-
 #main_content{
   padding: 5vmin;
   background-color: #F0F3F4;
+}
+
+#main_content p{
+  text-align: justify;
+  font-size: 18px;
 }
 
 article img{
