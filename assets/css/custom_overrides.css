@@ -70,6 +70,7 @@ img + em {
   color: #F0F3F4;
   background-color: #006cb4;
   font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0.8;
   padding: 2vw;
 }
 
