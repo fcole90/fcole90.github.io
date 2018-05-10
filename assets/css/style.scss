@@ -6,6 +6,16 @@
 Warning:
 Put your custom CSS below this line, do not edit anything before.
 ****************************************************************/
+
+* {
+  font-family: nimbus-sans, Helvetica, Arial, sans-serif;
+  font-weight: 700; 
+}
+
+.special-font{
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 .profile-image{
   display: inline;
   width: 0.72em;
