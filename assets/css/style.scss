@@ -32,7 +32,11 @@ Put your custom CSS below this line, do not edit anything before.
   background: #888178:
 }
 
-.header-menu{
+#header_wrap .inner{
+ padding: 2vmin; 
+}
+
+.header-menu a{
   font-family: "Source Code Pro", "Ubuntu Mono", "Lucida Console", Monaco, monospace;
 }
 
