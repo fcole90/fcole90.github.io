@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro');
 
 body{
-  font-family: nimbus-sans, Helvetica, Arial, sans-serif;
+  font-family: nimbus-sans, "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 100%;
 }
 
