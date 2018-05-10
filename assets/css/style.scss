@@ -7,6 +7,8 @@ Warning:
 Put your custom CSS below this line, do not edit anything before.
 ****************************************************************/
 
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
 * {
   font-family: nimbus-sans, Helvetica, Arial, sans-serif;
   font-weight: 700; 
@@ -31,7 +33,7 @@ Put your custom CSS below this line, do not edit anything before.
 }
 
 .header-menu{
-  font-family: "Ubuntu Mono", "Lucida Console", Monaco, monospace;
+  font-family: "Source Code Pro", "Ubuntu Mono", "Lucida Console", Monaco, monospace;
 }
 
 #main_content{
