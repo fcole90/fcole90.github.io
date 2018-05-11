@@ -29,6 +29,15 @@ i {
  font-style: italic;
 }
 
+li {
+  margin-bottom: 1em;
+}
+
+p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
 .profile-image{
   display: inline;
   height: 1.5em;
@@ -105,6 +114,7 @@ img + em {
 
 .post-publishing-note{
   font-size: 0.8em;
+  margin-top: 0px;
   /*color: #888178;*/
   /*text-align: right;*/
 }
