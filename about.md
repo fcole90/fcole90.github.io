@@ -5,7 +5,7 @@ description: null
 published: true
 ---
 ## Me
-Master student in Machine Learning and Data Mining at Aalto University, Espoo, Finland.
+Master student in Machine Learning and Data Mining at [Aalto University](http://www.aalto.fi/en/), Espoo, Finland.
 
 ## Website
 This static website is hosted trough GitHub pages and uses the following:
