@@ -7,23 +7,26 @@ published: true
 
 ### [Introduction to Probability and Statistics](https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/readings/)
 
+![Bayesian updating with conjugate normal distributions. (Image by Jerry Orloff and Jonathan Bloom.)](https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/18-05s14.jpg)
+
 Introductory course on Probability and Statistics. Very usefull to both who are approaching the subject for the first time as well as for those feeling the need for a brush up. It includes counting, probabilities, joint probabilities, probability distributions, frequentist approach to statistics, Bayesian approach to statistics. Many parts of the content of this course are fundamental in the context of machine learning.
 
-![Bayesian updating with conjugate normal distributions. (Image by Jerry Orloff and Jonathan Bloom.)](https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/18-05s14.jpg)
+
 
 
 ### [Andrew Ng - Machine Learning Course](https://www.youtube.com/watch?v=PPLop4L2eGk&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN)
 
+![Andrew NG giving a lecture](https://i.ytimg.com/vi/PPLop4L2eGk/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBc4QH5ahgQ5w_n6gF9HWtLaIxztQ)
+
 Introductory course on all about machine learning by [Andrew Ng](https://en.wikipedia.org/wiki/Andrew_Ng). This course provides a solid background on the most important concepts related to machine learning, and as such is highly suggested as an introductory course to machine learning.
 
-![Andrew NG giving a lecture](https://i.ytimg.com/vi/PPLop4L2eGk/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBc4QH5ahgQ5w_n6gF9HWtLaIxztQ)
 
 
 ### [Deep Learning Book](http://www.deeplearningbook.org) 
 
-*Verbatim:* The Deep Learning textbook is a resource intended to help students and practitioners enter the field of machine learning in general and deep learning in particular. The online version of the book is now complete and will remain available online for free.
-
 ![Deep Learning book cover](https://images-na.ssl-images-amazon.com/images/I/61fim5QqaqL.jpg)
+
+*Verbatim:* The Deep Learning textbook is a resource intended to help students and practitioners enter the field of machine learning in general and deep learning in particular. The online version of the book is now complete and will remain available online for free.
 
 
 
