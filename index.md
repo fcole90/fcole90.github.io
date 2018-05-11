@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home - fcole90
-description: Sharing ideas, resources, information.
+title: Home
+description: A place to share information on Artificial Intelligence, Neuroscience, Psychology and everything in between.
 ---
 
