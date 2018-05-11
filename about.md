@@ -4,6 +4,10 @@ title: About
 description: null
 published: true
 ---
+## Me
+Master student in Machine Learning and Data Mining at Aalto University, Espoo, Finland.
+
+## Website
 This static website is hosted trough GitHub pages and uses the following:
 
 - Jekyll, to generate the static website itself;
