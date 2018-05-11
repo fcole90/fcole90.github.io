@@ -20,6 +20,10 @@ img{
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+i {
+ font-style: italic;
+}
+
 .profile-image{
   display: inline;
   height: 1.5em;
