@@ -109,6 +109,10 @@ img + em {
   text-align: right;
 }
 
+.inline-date{
+  display: inline;
+}
+
 .post-categories{
   color: #607d8b;
   font-size: 0.9em;
