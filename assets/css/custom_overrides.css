@@ -105,8 +105,8 @@ img + em {
 
 .post-publishing-note{
   font-size: 0.8em;
-  color: #888178;
-  text-align: right;
+  /*color: #888178;*/
+  /*text-align: right;*/
 }
 
 .inline-date{
