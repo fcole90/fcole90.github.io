@@ -9,6 +9,8 @@ published: true
 
 Introductory course on Probability and Statistics. Very usefull to both who are approaching the subject for the first time as well as for those feeling the need for a brush up. It includes counting, probabilities, joint probabilities, probability distributions, frequentist approach to statistics, Bayesian approach to statistics. Many parts of the content of this course are fundamental in the context of machine learning.
 
+![Bayesian updating with conjugate normal distributions. (Image by Jerry Orloff and Jonathan Bloom.)](https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/18-05s14.jpg)
+
 
 ### [Andrew Ng - Machine Learning Course](https://www.youtube.com/watch?v=PPLop4L2eGk&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN)
 
