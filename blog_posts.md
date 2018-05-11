@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Blog posts
-description: Articles
+title: Articles
+description: All posts from last to first
 ---
 <ul>
             {% for post in site.posts %}
