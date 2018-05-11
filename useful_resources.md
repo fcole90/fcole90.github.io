@@ -16,7 +16,7 @@ Introductory course on Probability and Statistics. Very usefull to both who are 
 
 Introductory course on all about machine learning by [Andrew Ng](https://en.wikipedia.org/wiki/Andrew_Ng). This course provides a solid background on the most important concepts related to machine learning, and as such is highly suggested as an introductory course to machine learning.
 
-<iframe src="https://www.youtube.com/embed/?listType=playlist&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN" frameborder="0" allowfullscreen>
+![Andrew NG giving a lecture](https://i.ytimg.com/vi/PPLop4L2eGk/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBc4QH5ahgQ5w_n6gF9HWtLaIxztQ)
 
 
 ### [Deep Learning Book](http://www.deeplearningbook.org) 
