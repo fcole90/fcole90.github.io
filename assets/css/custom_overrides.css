@@ -34,6 +34,10 @@ i {
   margin-right: 0.1em;
 }
 
+.title{
+  padding-bottom: 0.5em;
+}
+
 #header_wrap{
   background: #888178:
 }
