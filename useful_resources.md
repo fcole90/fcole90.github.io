@@ -23,6 +23,9 @@ Introductory course on all about machine learning by [Andrew Ng](https://en.wiki
 
 *Verbatim:* The Deep Learning textbook is a resource intended to help students and practitioners enter the field of machine learning in general and deep learning in particular. The online version of the book is now complete and will remain available online for free.
 
+![Deep Learning book cover](https://images-na.ssl-images-amazon.com/images/I/61fim5QqaqL.jpg)
+
+
 
 ### [CS231n Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/) [Video Lectures](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1Zxk)
 
