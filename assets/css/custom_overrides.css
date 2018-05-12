@@ -55,8 +55,9 @@ span.title{
   margin-bottom: 25px;
 }
 
-.page-title{
+h1.page-title{
   font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 #header_wrap{
