@@ -38,6 +38,6 @@ However ANNs, as they’re currently modelled, require a very hard and long trai
 
 The way to discover more powerful techniques to mimic learning is long and perilous but new discoveries in neuroscience may unravel and lead to new and unexpected fields. Studying the behaviour and inner working of the brain can open paths to new state of the art algorithms and techniques for machine learning.
 
-*By Fabio Colella and Michele Vantini*
+*By [Fabio Colella](https://twitter.com/fcole1990) and [Michele Vantini](https://www.linkedin.com/in/michele-vantini-9825bb42/)*
 
 From: [BRAIN-log](https://blogs.aalto.fi/brainlog/2017/09/17/the-computer-who-dreams-of-becoming-a-real-boy/ "The computer who dreams of becoming a real boy")
