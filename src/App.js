@@ -1,23 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './assets/images/logo.png';
 import './App.css';
+
+function appLink(text, url){
+  return (<a className="App-link" href={url}>{text}</a>)
+}
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <p>Fabio Colella</p>
+        <img src={logo} className="App-logo" alt="logo"/>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          I'm creating a new website...
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>
+          Meanwhile:
+          <ul>
+            <li>{appLink("Follow me on Twitter", "https://twitter.com/fcole90")}</li>
+            <li>{appLink("Connect on LinkedIn", "https://www.linkedin.com/in/fabio-colella-099858162/")}</li>
+            <li>{appLink("Check my GitHub", "https://github.com/fcole90")}</li>
+          </ul>
+        </p>
+
+        <p>Version 0.0.6</p>
       </header>
     </div>
   );
