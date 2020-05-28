@@ -29,14 +29,13 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "deploy": "gatsby build --prefix-paths && gh-pages -b master -d build",
+    "deploy": "gatsby build && gh-pages -b master -d public",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
-  "homepage": "https://fcole90.github.io/",
   "repository": {
     "type": "git",
     "url": "https://github.com/fcole90/fcole90.github.io"
