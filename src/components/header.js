@@ -1,56 +1,58 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import Avatar from "./avatar"
+import AvatarPic from "./avatar"
+import moduleStyle from "./header.module.css"
+
+const ListLink = (props) => (
+  <li className={moduleStyle.link_list_li}>
+    <Link to={props.to} className={moduleStyle.header_link}>
+      <h2 className={moduleStyle.header_link_h2}>{props.children}</h2>
+    </Link>
+  </li>
+)
 
 const Header = ({ siteTitle, siteAuthor }) => (
-  <header
-    style={{
-      background: `#00387e`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `0.5rem 0.6rem`,
-      }}
-    >
-      <h1 style={{ margin: 0, fontSize: "1.6em" }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-            maxHeight: `5rem`
-          }}
-        >
-          <div style={{ display: "flex", alignItems: `center`}}>
-          <div style={{
-            minWidth: `3rem`,
-            height: `100`,
-            // float: "left",
-            margin: `0.4rem`}}>
-            <Avatar />
+  <header className={moduleStyle.header}>
+    <nav className={moduleStyle.navbar}>
+    <ul className={moduleStyle.link_list}>
+      <li className={[
+        moduleStyle.link_list_li,
+        moduleStyle.link_list_li_avatar
+        ].join(" ")
+      }>
+        <Link className={moduleStyle.header_link} to={`/`}>
+          <div className={moduleStyle.avatar_container}>
+            <AvatarPic/>
           </div>
-            <span style={{verticalAlign: "middle"}}>{siteTitle} <span style={{fontFamily: "monospace"}}>{(siteAuthor)}</span></span>
-          </div>
-
         </Link>
-      </h1>
-    </div>
+      </li>
+
+      <li className={[
+        moduleStyle.link_list_li,
+        moduleStyle.link_list_li_home
+      ].join(" ")
+      }>
+        <Link className={moduleStyle.header_link} to={`/`}>
+          <h2 className={moduleStyle.header_link_h2} style={{whiteSpace: "nowrap"}}>
+            {siteTitle}
+          </h2>
+        </Link>
+      </li>
+      <ListLink to={'/about'}>About</ListLink>
+    </ul>
+    </nav>
   </header>
 )
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
-  siteAuthor: PropTypes.string,
+  siteAuthor: PropTypes.string
 }
 
 Header.defaultProps = {
   siteTitle: ``,
-  siteAuthor: ``,
+  siteAuthor: ``
 }
 
 export default Header
