@@ -1,11 +1,11 @@
 .header {
-    background: #00387e;
-    marginBottom: 1.45rem;
+    background: var(--main-background-color);
+    margin-bottom: 1.45rem;
     vertical-align: middle;
 }
 
 .navbar {
-    padding: 0.3rem 0.3rem;
+    padding: 0.8rem 0.8rem;
 }
 
 .header_link {
@@ -13,8 +13,10 @@
     display: inline-block;
 }
 
-.header_link_h2 {
+.header_link_text {
     color: white;
+    font-weight: 300;
+    font-family: "Lato", "Droid Sans", sans-serif;
 }
 
 
