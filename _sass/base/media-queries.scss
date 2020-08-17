@@ -1,0 +1,61 @@
+@media only screen and (min-width: 800px) {
+  :root {
+    --constrained-content-width: 75vw;
+    // (100 - 75) / 2
+    --constrained-content-side: 12.5vw;
+  }
+
+  // Width starts from 600px, never gets below
+  .inner-content {
+    width: var(--constrained-content-width);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav-pusher {
+    width: var(--constrained-content-side);
+  }
+
+  //.main-nav-container {
+  //  padding-left: var(--constrained-content-side);
+  //  padding-right: var(--constrained-content-side);
+  //}
+
+  .top-banner {
+    padding-left: var(--constrained-content-side);
+    padding-right: var(--constrained-content-side);
+    width: 100vw;
+    box-sizing: border-box;
+  }
+
+  .home-profile-container {
+    right: var(--constrained-content-side);
+  }
+
+  .footer-content {
+    padding-left: var(--constrained-content-side);
+    padding-right: var(--constrained-content-side);
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  :root {
+    --constrained-content-width: 65vw;
+    // (100 - 75) / 2
+    --constrained-content-side: 17.5vw;
+  }
+}
+
+@media only screen and (min-width: 1460px) {
+  :root {
+    --constrained-content-width: 55vw;
+    // (100 - 55) / 2
+    --constrained-content-side: 22.5vw;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 100%;
+  }
+}

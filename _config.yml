@@ -1,0 +1,42 @@
+permalink: /blog/:slug/
+future: true
+
+collections:
+  authors:
+    output: true
+    permalink: /:collection/:name/
+  resources:
+    output: true
+    permalink: /:collection/:name/
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "resources"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jemoji

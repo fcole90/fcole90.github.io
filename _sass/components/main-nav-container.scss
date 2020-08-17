@@ -1,0 +1,80 @@
+// Describes the main nav
+.main-nav-container {
+  padding: 0.2rem 0 0 0;
+  box-sizing: border-box;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-pusher {
+  border-bottom: 0.05rem solid var(--main-shadow-color);
+  width: 1vw;
+}
+
+.main-nav {
+  flex: 1;
+  width: 98vw;
+  //display: flex;
+  ////flex-direction: row;
+  //justify-content: stretch;
+
+
+  display: grid;
+  align-items: center;
+  //grid-template-columns: auto;
+}
+
+.main-nav a {
+  grid-row: 1;
+  color: var(--main-text-color-muted);
+}
+
+.nav-item-div {
+  grid-row: 1;
+  //margin: auto;
+  padding: 0.3rem 0.1vw 0.15rem 0.1vw;
+  border-radius: 0.6rem 0.6rem 0 0;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  text-align: center;
+  border: 0.05rem solid var(--main-shadow-color);
+  background-color: var(--main-background-color-selected);
+
+  transition: background-color 0.4s;
+}
+
+.nav-item-div:hover {
+  background-color: var(--main-background-color-hover);
+  transition: background-color 0.8s;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+}
+
+.current-nav-page {
+  background-color: var(--main-background-color);
+  box-shadow: 0 -0.15rem 0.2rem -0.12rem var(--main-shadow-color);
+  color: var(--main-text-highlight-color);
+  border-bottom: none;
+}
+
+
+.current-nav-page:hover {
+  background-color: var(--main-background-color);
+}
+
+.nav-item-heading {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.nav-item-heading {
+  font-weight: 400;
+  font-size: 1.1rem;
+}

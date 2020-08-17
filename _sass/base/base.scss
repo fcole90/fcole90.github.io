@@ -1,0 +1,142 @@
+// This file contains variables and fonts
+:root {
+  /* Dimensions */
+  --max-layout-width: 60rem;
+  --layout-width: 50vw;
+
+  /* Fonts */
+  --main-font-family: "Lato", "Helvetica Neue", "Arial", "Ubuntu", "Cantarell", "DejaVu Sans", sans-serif;
+  --system-fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+  /* Colors */
+  --main-background-color: #F9F9F9;
+  --main-background-color-hover: #eceff8;
+  --main-background-color-selected: #f5f7f9;
+  //--topbar-background-color: #0C166E;
+  --topbar-background-color: #2864e9;
+  --main-background-color-muted: #e1f1ff;
+  --main-background-color-dark: #191c20;
+  --main-text-color: #020828;
+  --main-text-color-muted: #7f7f8b;
+  --main-text-color-muted-darker: #4c4c51;
+  --main-text-color-light: #f9f9f9;
+  --main-text-highlight-color: #0089f7;
+  --main-text-highlight-color-muted: #78afda;
+  --main-text-highlight-color-variant: #da85f9;
+  --main-background-highlight-color-muted: #d7e6f3;
+  --main-shadow-color: rgba(0, 0, 25, 0.20);
+  --main-lightning-color: rgba(240, 245, 255, 0.8);
+
+  // Special
+  --curious-color-light: #e3b6ff;
+  --curious-color-text: #ffffff;
+  --creative-color-light: #b7fff9; // Green is not a creative color!
+  --creative-color-text: #ffffff;
+  --team-color-light: #ffecb8;
+  --team-color-text: #ffffff;
+}
+
+html {
+  font-family: var(--main-font-family);
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: hsla(0, 0%, 0%, 0.8);
+  font-family: var(--main-font-family);
+  font-weight: normal;
+  word-wrap: break-word;
+  font-kerning: normal;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+  font-size: 1.1rem;
+  font-family: var(--font-body-font-family);
+  font-weight: 500;
+  letter-spacing: 0.009rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+main {
+  background-color: var(--main-background-color);
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-top: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 200;
+  margin-top: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+p, li {
+  line-height: calc(1ex / 0.32); // https://www.smashingmagazine.com/2020/07/css-techniques-legibility/
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0 0 calc(1ex / 0.32) 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+p a, .color-link {
+  text-decoration: none;
+  color: var(--main-text-highlight-color);
+}
+
+p a:hover, .color-link:hover {
+  text-decoration: underline;
+}
+
+p a:visited, .color-link:visited {
+  color: var(--main-text-highlight-color-muted);
+}
+
+// Classes
+.main-heading {
+  padding-top: 0.3rem;
+  padding-bottom: 0.6rem;
+  padding-left: 1.2rem;
+}
+
+/* https://css-tricks.com/fluid-width-video/ */
+.responsive-iframe {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  height: 0;
+}
+
+.responsive-iframe iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+// Debug
+//* {
+//  border: 0.01rem solid #f00 !important;
+//  background-color: rgba(200, 255, 200, 0.2) !important;
+//}
+

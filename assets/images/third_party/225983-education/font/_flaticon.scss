@@ -1,0 +1,159 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 22/09/2016 08:09
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-abacus:before { content: "\f100"; }
+.flaticon-backpack:before { content: "\f101"; }
+.flaticon-backpack-1:before { content: "\f102"; }
+.flaticon-backpack-2:before { content: "\f103"; }
+.flaticon-bell:before { content: "\f104"; }
+.flaticon-book:before { content: "\f105"; }
+.flaticon-book-1:before { content: "\f106"; }
+.flaticon-book-2:before { content: "\f107"; }
+.flaticon-book-3:before { content: "\f108"; }
+.flaticon-book-4:before { content: "\f109"; }
+.flaticon-book-5:before { content: "\f10a"; }
+.flaticon-book-6:before { content: "\f10b"; }
+.flaticon-briefcase:before { content: "\f10c"; }
+.flaticon-calculator:before { content: "\f10d"; }
+.flaticon-calculator-1:before { content: "\f10e"; }
+.flaticon-canvas:before { content: "\f10f"; }
+.flaticon-cup:before { content: "\f110"; }
+.flaticon-cup-1:before { content: "\f111"; }
+.flaticon-cup-2:before { content: "\f112"; }
+.flaticon-desk:before { content: "\f113"; }
+.flaticon-diploma:before { content: "\f114"; }
+.flaticon-diploma-1:before { content: "\f115"; }
+.flaticon-diploma-2:before { content: "\f116"; }
+.flaticon-diploma-3:before { content: "\f117"; }
+.flaticon-diploma-4:before { content: "\f118"; }
+.flaticon-diploma-5:before { content: "\f119"; }
+.flaticon-drawing:before { content: "\f11a"; }
+.flaticon-drawing-1:before { content: "\f11b"; }
+.flaticon-earth-globe:before { content: "\f11c"; }
+.flaticon-flask:before { content: "\f11d"; }
+.flaticon-lamp:before { content: "\f11e"; }
+.flaticon-lamp-1:before { content: "\f11f"; }
+.flaticon-library:before { content: "\f120"; }
+.flaticon-library-1:before { content: "\f121"; }
+.flaticon-medal:before { content: "\f122"; }
+.flaticon-medal-1:before { content: "\f123"; }
+.flaticon-microscope:before { content: "\f124"; }
+.flaticon-microscope-1:before { content: "\f125"; }
+.flaticon-mortarboard:before { content: "\f126"; }
+.flaticon-notebook:before { content: "\f127"; }
+.flaticon-notepad:before { content: "\f128"; }
+.flaticon-open-book:before { content: "\f129"; }
+.flaticon-open-book-1:before { content: "\f12a"; }
+.flaticon-open-book-2:before { content: "\f12b"; }
+.flaticon-open-book-3:before { content: "\f12c"; }
+.flaticon-open-book-4:before { content: "\f12d"; }
+.flaticon-open-book-5:before { content: "\f12e"; }
+.flaticon-open-book-6:before { content: "\f12f"; }
+.flaticon-pencil:before { content: "\f130"; }
+.flaticon-pencil-case:before { content: "\f131"; }
+.flaticon-pencil-case-1:before { content: "\f132"; }
+.flaticon-school:before { content: "\f133"; }
+.flaticon-school-1:before { content: "\f134"; }
+.flaticon-school-2:before { content: "\f135"; }
+.flaticon-scroll:before { content: "\f136"; }
+.flaticon-sharpener:before { content: "\f137"; }
+.flaticon-stapler:before { content: "\f138"; }
+.flaticon-trophy:before { content: "\f139"; }
+.flaticon-writing:before { content: "\f13a"; }
+.flaticon-writing-1:before { content: "\f13b"; }
+    
+    $font-Flaticon-abacus: "\f100";
+    $font-Flaticon-backpack: "\f101";
+    $font-Flaticon-backpack-1: "\f102";
+    $font-Flaticon-backpack-2: "\f103";
+    $font-Flaticon-bell: "\f104";
+    $font-Flaticon-book: "\f105";
+    $font-Flaticon-book-1: "\f106";
+    $font-Flaticon-book-2: "\f107";
+    $font-Flaticon-book-3: "\f108";
+    $font-Flaticon-book-4: "\f109";
+    $font-Flaticon-book-5: "\f10a";
+    $font-Flaticon-book-6: "\f10b";
+    $font-Flaticon-briefcase: "\f10c";
+    $font-Flaticon-calculator: "\f10d";
+    $font-Flaticon-calculator-1: "\f10e";
+    $font-Flaticon-canvas: "\f10f";
+    $font-Flaticon-cup: "\f110";
+    $font-Flaticon-cup-1: "\f111";
+    $font-Flaticon-cup-2: "\f112";
+    $font-Flaticon-desk: "\f113";
+    $font-Flaticon-diploma: "\f114";
+    $font-Flaticon-diploma-1: "\f115";
+    $font-Flaticon-diploma-2: "\f116";
+    $font-Flaticon-diploma-3: "\f117";
+    $font-Flaticon-diploma-4: "\f118";
+    $font-Flaticon-diploma-5: "\f119";
+    $font-Flaticon-drawing: "\f11a";
+    $font-Flaticon-drawing-1: "\f11b";
+    $font-Flaticon-earth-globe: "\f11c";
+    $font-Flaticon-flask: "\f11d";
+    $font-Flaticon-lamp: "\f11e";
+    $font-Flaticon-lamp-1: "\f11f";
+    $font-Flaticon-library: "\f120";
+    $font-Flaticon-library-1: "\f121";
+    $font-Flaticon-medal: "\f122";
+    $font-Flaticon-medal-1: "\f123";
+    $font-Flaticon-microscope: "\f124";
+    $font-Flaticon-microscope-1: "\f125";
+    $font-Flaticon-mortarboard: "\f126";
+    $font-Flaticon-notebook: "\f127";
+    $font-Flaticon-notepad: "\f128";
+    $font-Flaticon-open-book: "\f129";
+    $font-Flaticon-open-book-1: "\f12a";
+    $font-Flaticon-open-book-2: "\f12b";
+    $font-Flaticon-open-book-3: "\f12c";
+    $font-Flaticon-open-book-4: "\f12d";
+    $font-Flaticon-open-book-5: "\f12e";
+    $font-Flaticon-open-book-6: "\f12f";
+    $font-Flaticon-pencil: "\f130";
+    $font-Flaticon-pencil-case: "\f131";
+    $font-Flaticon-pencil-case-1: "\f132";
+    $font-Flaticon-school: "\f133";
+    $font-Flaticon-school-1: "\f134";
+    $font-Flaticon-school-2: "\f135";
+    $font-Flaticon-scroll: "\f136";
+    $font-Flaticon-sharpener: "\f137";
+    $font-Flaticon-stapler: "\f138";
+    $font-Flaticon-trophy: "\f139";
+    $font-Flaticon-writing: "\f13a";
+    $font-Flaticon-writing-1: "\f13b";

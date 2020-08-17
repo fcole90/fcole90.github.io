@@ -1,0 +1,36 @@
+---
+layout: default
+title: Projects
+---
+<h1 class="main-heading">Projects</h1>
+
+<div class="post-list card-container">
+    <!-- current_date is used later to check if the project completion is in the future !-->
+    {% assign current_date = "now" | date: "%s" %}
+    {% assign projects = site.projects | sort: 'date' | reverse %}
+    {% for project in projects %}
+        <a href="{{ project.url }}" class="post-link">
+            <div class="post-item card">
+                <div class="card-img-side">
+                    <img src="{{ project.image }}" alt="{{ project.image-alt-text }}" class="card-img post-img-thumb">
+                </div>
+                <div class="card-text-side">
+                    <h2 class="card-header-text">{{ project.title }}</h2>
+                    <h3 class="card-secondary-text">{{ project.subtitle }}</h3>
+                    <p class="card-supporting-text">
+                        {% if project.date-from != "" %}
+                            {{ project.date-from | date: "%b %Y"}} -
+                        {% endif %}
+                        {% assign project_date = project.date | date: "%s" %}
+                        {% if project_date > current_date %}
+                            Present
+                        {% else %}
+                            {{ project.date | date: "%b %Y"}}
+                        {% endif %}
+                    </p>
+                </div>
+            </div>
+        </a>
+    {% endfor %}
+</div>
+

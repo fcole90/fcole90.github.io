@@ -1,0 +1,61 @@
+---
+layout: default
+---
+<h1 class="post-title">{{ page.title }}</h1>
+<h2 class="post-subtitle project-subtitle">{{ page.subtitle }}</h2>
+<p class="project-techs project-list">
+    {% comment %}<strong class="project-techs-strong project-list-intro">Employed technologies:</strong>{% endcomment %}
+    {% for tech in page.techs %}
+        <span class="keyword keyword-round-bg">{{ tech }}</span>
+    {% endfor %}
+</p>
+<p class="project-techs project-list">
+    {% comment %}<strong class="project-keywords project-list-intro">Keywords:</strong>{% endcomment %}
+    {% for keyword in page.keywords %}
+        <span class="keyword keyword-highlighted">#{{ keyword }}</span>
+    {% endfor %}
+</p>
+
+<!--<div class="post-share-buttons-container">-->
+<!--  in, Fb, Tw, Link, Share Mobile button-->
+<!--</div>-->
+
+<!--<div class="post-authors-container">-->
+<!--  List authors: Pic + {{ page.author }}-->
+<!--</div>-->
+
+{% if page.date-to != "" %}
+<p class="post-data">
+    <a href="{{ page.reason-link }}" class="project-reason">{{ page.reason }}</a>
+    |
+    {% if page.date-from != "" %}
+    {{ page.date-from | date: "%b %Y"}} -
+    {% endif %}
+    {% assign current_date = "now" | date: "%s" %}
+    {% assign project_date = page.date | date: "%s" %}
+    {% if project_date > current_date %}
+        Present
+    {% else %}
+        {{ page.date | date: "%b %Y"}}
+    {% endif %}
+</p>
+{% endif %}
+
+<div class="post-main-figure-container">
+    <figure class="post-main-figure">
+        <img class="post-main-image project-main-image" src="{{ page.image }}" alt="{{ page.image-alt-text }}">
+        <figcaption class="post-main-figure-caption">
+            {{ page.image-alt-text }}
+        </figcaption>
+    </figure>
+</div>
+
+
+
+<div class="post-content">
+  {{ content }}
+</div>
+
+<a class="project-info-link color-link" href="{{ page.more-info }}" target="_blank">
+    Click here for further information
+</a>

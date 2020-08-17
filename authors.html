@@ -1,0 +1,36 @@
+---
+layout: default
+title: Authors
+---
+<h1 class="main-heading">Post Authors</h1>
+
+{% for author in site.authors %}
+
+  <!-- Check if the link is external -->
+  {% assign link_first_char = author.more-info | slice: 0 %}
+  {% if link_first_char != "/" %}
+    {% assign is_external_link = true %}
+  {% endif %}
+
+  <div class="author-container">
+    <a class="author-link"
+       href="{{ author.more-info }}"
+      {% if is_external_link == true %}
+        target="_blank"
+      {% endif %}
+    >
+      <img class="author-image circle thumbnail"
+           src="{{ author.image }}"
+           alt="Picture of {{ author.name }}"
+      >
+      <h1 class="author-name">{{ author.name }}</h1>
+      <h2 class="author-more">
+        Click for more info {{ is_external_link }}
+        {% if is_external_link == true %}
+          - External Link
+        {% endif %}
+      </h2>
+    </a>
+  </div>
+{% endfor %}
+

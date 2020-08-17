@@ -1,0 +1,13 @@
+<div class="main-nav-container">
+  <div class="nav-pusher nav-pusher-left"></div>
+  <nav class="main-nav">
+    {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" class="nav-link">
+      <div class="nav-item-div{% if page.url == item.link %} current-nav-page{% endif %}">
+          <h4 class="nav-item-heading">{{ item.name }}</h4>
+      </div>
+    </a>
+    {% endfor %}
+  </nav>
+  <div class="nav-pusher nav-pusher-right"></div>
+</div>

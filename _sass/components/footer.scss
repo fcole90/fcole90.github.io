@@ -1,0 +1,34 @@
+footer {
+  width: 100vw;
+  background-color: var(--main-background-color-dark);
+  color: var(--main-text-color-light);
+}
+
+.footer-content {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.4rem 2rem 2rem 2rem;
+}
+
+.copyright-notice {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.license-container {
+  width: 100%;
+  text-align: center;
+}
+
+.license-container a {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.license-description {
+  margin-top: 0.2rem;
+}
+
+

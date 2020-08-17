@@ -1,0 +1,23 @@
+.thumbnail {
+  width: 4rem;
+  height: 4rem;
+}
+
+.circle {
+  border-radius: 100%;
+}
+
+.keyword {
+  padding: 0.2rem 0.3rem;
+  font-size: .9em;
+  font-family: "Source Code Pro", "Consolas", "Lucida Console", "Ubuntu Mono", monospace;
+}
+
+.keyword-highlighted {
+  color: var(--main-text-highlight-color);
+}
+
+.keyword-round-bg {
+  background-color: var(--main-background-highlight-color-muted);
+  border-radius: 0.4rem;
+}

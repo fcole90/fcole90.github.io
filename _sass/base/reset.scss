@@ -1,0 +1,10 @@
+// Reset CSS rules
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+// Do not color links not activate text decoration
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+}
