@@ -12,7 +12,16 @@ layout: default
 <!--  List authors: Pic + {{ page.author }}-->
 <!--</div>-->
 
-<p class="post-data">{{ page.date | date_to_string }} - 5 min read</p>
+<p class="post-data">{{ page.date | date_to_string }}</p>
+
+<div class="post-main-figure-container">
+    <figure class="post-main-figure">
+        <img class="post-main-image project-main-image" src="{{ page.image }}" alt="{{ page.image-alt-text }}">
+        <figcaption class="post-main-figure-caption">
+            {{ page.image-alt-text }}
+        </figcaption>
+    </figure>
+</div>
 
 <div class="post-content">
   {{ content }}
