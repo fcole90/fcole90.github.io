@@ -14,7 +14,10 @@ title: Blog
         <div class="card-text-side">
           <h2 class="card-header-text">{{ post.title }}</h2>
           <h3 class="card-secondary-text">{{ post.content | strip_html | strip_newlines |  truncate: 100 }}</h3>
-          <p class="card-supporting-text">{{ post.date | date_to_string }} - 5 min read</p>
+          <p class="card-supporting-text">
+            {{ post.date | date_to_string }}
+            {% comment %}- 5 min read{% endcomment %}
+          </p>
         </div>
       </div>
     </a>
