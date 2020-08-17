@@ -2,6 +2,7 @@
 layout: post
 published: true
 image: /assets/images/posts/2018-02-07/AI-movie.jpg
+image-alt-text: "A scene from the movie A.I. Artificial Intelligence (2001) - © 2001 - Warner Brothers and Dreamworks LLC - All Rights Reserved"
 ---
 The neurons are the cells responsible for the transmission of the signal through the human nervous system. A single neuron cannot achieve much by itself, but groups of them can create highly complex networks, with billions of connections. Neural networks can be considered the analogue of what processors are for computers: a powerful calculation machine.
 
@@ -9,11 +10,6 @@ The neurons are the cells responsible for the transmission of the signal through
 
 - _Real neural networks and Artificial Neural Networks_
 - _The abilities and the limits of the current Artificial Neural Networks models_
-
-![AI-movie.jpg]({{site.baseurl}}/assets/images/posts/2018-02-07/AI-movie.jpg)
-*A scene from the movie A.I. Artificial Intelligence (2001) - © 2001 - Warner Brothers and Dreamworks LLC - All Rights Reserved*
-
-
 
 ![Blausen_0657_MultipolarNeuron.png]({{site.baseurl}}/assets/images/posts/2018-02-07/Blausen_0657_MultipolarNeuron.png)
 *Scheme visualisation of a mulipolar neuron.*

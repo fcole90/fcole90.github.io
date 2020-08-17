@@ -2,6 +2,7 @@
 layout: post
 published: true
 image: /assets/images/posts/2020-08-17/this-same-blog.png
+image-alt-text: "The new interface you are already experiencing. Recursion!"
 ---
 I created this new presentation website, as the old one was getting old and was a bit ugly.
 I also wanted to create something fresh and new, to put to test my UI and
