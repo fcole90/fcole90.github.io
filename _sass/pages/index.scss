@@ -80,17 +80,20 @@
   display: grid;
   grid-template-columns: calc(var(--skill-line-height) * 1.5) auto;
   position: relative;
-
+  margin-top: 0.35rem;
+  margin-bottom: 0.35rem;
   padding-top: 0.35rem;
   padding-bottom: 0.35rem;
 
   transition: padding-top 0.2s, padding-bottom 0.2s;
+  align-items: center;
 }
 
 .home-page-skill-heading {
   font-size: var(--skill-line-height);
   font-weight: 300;
-
+  margin-top: 0;
+  margin-bottom: 0;
   transition: text-shadow 2s ease-out;
 }
 
