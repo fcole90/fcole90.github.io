@@ -9,7 +9,7 @@ keywords: [creative, computation, AI, ML, CNN, interactiveML, teamwork]
 techs: [python, flask, javascript, html, css, API]
 work: false
 academic: true
-reason: University of Helsnki Computational Creativity course
+reason: University of Helsinki Computational Creativity course
 reason-link: https://courses.helsinki.fi/en/data15002/124845544
 more-info: https://github.com/fcole90/three-muses-creative-ai
 ---
@@ -22,7 +22,7 @@ The AI learns how to produce art for public enjoyment by using feedback it recei
 from displaying its art on a website created on purpose.
 
 ## What did I do?
-- Developed an application to learn and generate art by merging different pictures in a meaningful and creative way                    github.com/fcole90/cc-course19/tree/master/graphical_group_01
 - Led the team, providing motivation and suggestions on the direction to take 
-- Developed Javascript web frontend for the public to judge the art the AI produced
-- Developed Python/Tensorflow backend with an AI for analysing and another for creating art
+- Developed Javascript web frontend for the public to judge the art the AI produced 
+  with a thin Flask backend to collect feedback
+- Developed one Python/Tensorflow AI for criticising art and another for generating it
